@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Here you will find Allison Segrera's web portfolio.">
+    <meta name="keywords" content="development, portfolio">
+    <meta name="author" content="Allison Pauleth Segrera Pardo">
+    <meta name="designer" content="Allison Pauleth Segrera Pardo">
+    <meta name="copyright" content=" 2026 synfonyXD. Todos los derechos reservados">
+    <meta name="sitedomain" content="https://portafolioweballison.com">
+    <meta name="theme color" content="#ffffff">
+    <title>Peluditoscenter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En el header agregue una barra de navegacion que te dirige al apartado de la pagina que buscas. -->
+    <header class="header">
+        <nav>
+            <a href="#about-me">Sobre nosotros</a>
+            <a href="#Ofertas">Ofertas</a>
+            <a href="#Contact">Contactenos</a>
+            <a href="#sedes">Sedes</a>
+            <a href="#boletin">Boletin</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="baner">
+            <img src="./img/ver tienda.webp" alt="">
+        </section>
+        <div>
+        </div>
+        <section class="nosotros" id="about-me">
+            <h1>SOBRE NOSOTROS</h1>
+            <p>Ya sea que estés buscando el alimento ideal para tu perro, el juguete perfecto para tu gato, o
+                simplemente necesites asesoramiento sobre el cuidado de tu mascota, en Peluditoscenter encontrarás
+                todo lo que necesitas para crear un vínculo especial con tus compañeros peludos.
+            </p>
+        </section>
+        <section class="iconos">
+            <div class="domicilio">
+                <img src="img/gps_6793486-1.webp" alt="icono" />
+                <p>Envio a domicilio</p>
+            </div>
+            <div class="domicilio">
+                <img src="./img/free-shipping_17023844.webp" alt="icono" />
+                <p>Envio totalmente gratis</p>
+            </div>
+            <div class="domicilio">
+                <img src="./img/delivery-truck_586676.webp" alt="icono" />
+                <p>Envio rapido</p>
+            </div>
+        </section>
+        <br>
+        <h2>OFERTAS</h2>
+        <!-- Use Grid para el apartado de ofertas -->
+        <section class="ofertas" id="Ofertas">
+            <div class="producto">
+                <img src="./img/arenero-1.webp" alt="1">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/pañoleta.webp" alt="2">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/collar.webp" alt="3">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/Pet-Supplies-Wholesale-Dog-Beds-Removable-and-Washable-Luxury-Dog-Bed-for-Small-Medium-Large-Dogs.webp"
+                    alt="Project 3">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/platito.webp" alt="4">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/bolsitasss.webp" alt="">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/bolsa.webp" alt="5">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/alimento.webp" alt="6">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/inflable.webp" alt="7">
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/peluqueria.webp" alt="8">
+                <button>Agregar al carrito</button>
+            </div>
+        </section>
+        <!-- Aplique flex box para las cajas en el apartado sedes, y use un boton con enlaces que al presionar te dirige a la ubicacion de la sede. -->
+        <h2>SEDES</h2>
+        <section class="sedes" id="sedes">
+            <div class="caja">
+                <img src="img/tienda1 (1).webp" alt="sede1">
+                <button><a href="https://maps.app.goo.gl/hTGGrmkL7o4a7qNW6">¿Como llegar?</a></button>
+            </div>
+            <div class="caja">
+                <img src="./img/tienda2.webp" alt="sede2">
+                <button><a href="https://maps.app.goo.gl/xcyQL3jGFBb4dXze6">¿Como llegar?</a></button>
+            </div>
+            <div class="caja">
+                <img src="./img/sede3 (1).webp" alt="sede3">
+                <button><a href="https://maps.app.goo.gl/nsv1J3kFkVVeshW78">¿Como llegar?</a></button>
+            </div>
+            </div>
+        </section>
+        <br>
+        <!--Aplique un formulario en boletin para que el usuario pudiese suscribirse al boletin -->
+        <section class="form_container" id="boletin">
+            <h1>BOLETIN</h1>
+            <p>¡Suscríbete a nuestra tienda y recibe promociones exclusivas, consejos de cuidado de mascotas, y mucho
+                más! ¡No te pierdas nuestras ofertas especiales y descuentos para tu compañero peludo!</p>
+            <form action method="post">
+                <label for="nombre">Name:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="apellido">Apellido:</label><br>
+                <input type="text" id="apellido" apellido="apellido" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <button>Suscribirme</button>
+            </form>
+        </section>
+    </main>
+    <!-- En el footer use vinculos que llevan a las redes sociales -->
+    <footer>
+        <section class="redes_sociales" id="social-medias">
+            <h2>SOCIAL MEDIAS</h2>
+            <div class="iconos">
+                <div class="icono">
+                    <img class="instagram" src="./img/instagram.webp" />
+                    <a href="./img/instagram.webp" target="_blank">INSTAGRAM</a>
+                </div>
+                <div class="icono">
+                    <img class="youtube" src="./img/youtube.webp" />
+                    <a href="./img/youtube.webp" target="_blank">YOUTUBE</a>
+                </div>
+                <div class="icono">
+                    <img class="github" src="./img/github.webp" />
+                    <a href="https://github.com/ally2105" target="_blank">GITHUB</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
