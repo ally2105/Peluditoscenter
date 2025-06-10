@@ -1,22 +1,25 @@
 @import url(https://fonts.googleapis.com/css2?family=Anton&family=Edu+SA+Hand:wght@400..700&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Playwrite+HU:wght@100..400&family=Quicksand:wght@300..700&display=swap);
-body{
+
+body {
     min-height: 100vh;
     background-color: #e2d4ed;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Edu SA Hand", cursive;
 }
-.header{
+
+.header {
     background-color: #595b8b;
     padding: 30px 0;
     text-align: center;
 }
-.header nav a{
-    color:white;
+
+.header nav a {
+    color: white;
     text-decoration: none;
     margin: 0 20px;
     font-weight: bold;
@@ -25,23 +28,26 @@ body{
     border-radius: 5px;
     transition: background-color 0.3s;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-} 
+}
 
-.nosotros>ul{
+.nosotros>ul {
     list-style: none;
 }
 
-.header nav a:hover{
-    background-color:#555;
+.header nav a:hover {
+    background-color: #555;
 }
-main{
+
+main {
     background-color: rgba(255, 255, 255, 0);
     padding: 30px;
     text-align: center;
 }
-.baner img{
-    width:80% ;
+
+.baner img {
+    width: 80%;
 }
+
 .iconos {
     display: flex;
     justify-content: center;
@@ -49,6 +55,7 @@ main{
     margin-top: 20px;
     flex-wrap: wrap;
 }
+
 .domicilio {
 
     border: 1px solid black;
@@ -71,31 +78,33 @@ main{
     margin-bottom: 10px;
 }
 
-footer{
+footer {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.instagram{
-    width: 30px;
-    height: 30px;
-}
-.youtube{
-    width: 30px;
-    height: 30px;
-}
-.github{
+.instagram {
     width: 30px;
     height: 30px;
 }
 
-a{
+.youtube {
+    width: 30px;
+    height: 30px;
+}
+
+.github {
+    width: 30px;
+    height: 30px;
+}
+
+a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(3, 3, 3);
 }
 
 form {
-    background-color: #22243c;
+    background-color: #ffffff;
     padding: 25px 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -113,11 +122,14 @@ form:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px; 
+    gap: 15px;
     padding-bottom: 20px;
 }
 
-form input, form textarea, form select, form button {
+form input,
+form textarea,
+form select,
+form button {
     width: 100%;
     padding: 10px 15px;
     border: 1.5px solid #ccc;
@@ -127,14 +139,16 @@ form input, form textarea, form select, form button {
     transition: border-color 0.3s ease;
 }
 
-form input:focus, form textarea:focus, form select:focus {
+form input:focus,
+form textarea:focus,
+form select:focus {
     border-color: #3a99d8;
     outline: none;
     box-shadow: 0 0 8px rgba(58, 153, 216, 0.5);
 }
 
 form button {
-    background-color: #f80015;
+    background-color: #4c71b4;
     color: white;
     border: none;
     cursor: pointer;
@@ -146,20 +160,21 @@ form button:hover {
     background-color: #2d7bbf;
 }
 
-label{
+label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.redes_sociales{
+.redes_sociales {
     padding: 10px;
-    background-color: #595b8b; 
+    background-color: #595b8b;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgb(255, 252, 252);
 }
-.redes_sociales a:hover{
-    background-color:#555;
+
+.redes_sociales a:hover {
+    background-color: #555;
 }
 
 .ofertas {
@@ -174,11 +189,12 @@ label{
     background-color: #f9f9f9;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     text-align: center;
 }
-.producto button{
+
+.producto button {
     border-radius: 10%;
     background-color: #595b8b;
     color: white;
@@ -202,17 +218,21 @@ label{
     color: #333;
     font-size: 18px;
 }
-.sedes{
+
+.sedes {
     display: flex;
     justify-content: space-around;
 }
-.caja{
+
+.caja {
     background-color: #faf7f7;
     border: 1px solid gray;
     border-radius: 2%;
-    width: 25%;
+    width: 30vh;
+    height: 25vh;
 }
-.caja button{
+
+.caja button {
     border: 1px solid rgb(66, 66, 66);
     background-color: #9c9b9b;
     color: rgb(0, 0, 0);
@@ -221,11 +241,13 @@ label{
     font-weight: 500;
     border: 1px solid black;
 }
-.caja button:hover{
+
+.caja button:hover {
     transform: scale(1.05);
     background-color: rgb(152, 152, 248);
 }
-.caja img{
+
+.caja img {
     width: 100%;
 }
 
@@ -234,6 +256,7 @@ label{
         font-size: 14px;
         margin: 0 10px;
     }
+
     form {
         width: 90%;
     }
@@ -245,14 +268,31 @@ label{
         flex-direction: column;
         gap: 10px;
     }
+
     .ofertas {
         grid-template-columns: 1fr;
     }
+
     .form_container {
         padding: 10px;
     }
-    .redes_sociales{
+
+    .redes_sociales {
         width: 100%;
         font-size: 10px;
     }
-}	
+
+    .sedes {
+        gap: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .caja {
+        background-color: #faf7f7;
+        border: 1px solid gray;
+        border-radius: 2%;
+        width: 30vh;
+        height: 20vh;
+    }
+}
